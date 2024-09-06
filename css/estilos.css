@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://img.freepik.com/fotos-premium/balon-futbol-gris-sobre-fondo-negro_1007204-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}   
+
+
+
+#contenedor-de-preguntas{
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 300px;
+    margin-left: 10%;
+    
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 90px;
+    
+}
+
+button:disabled {
+background-color: #6c757d;
+color: black;
+}
+
+.opcion{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.opcion:hover{
+    background-color: #dee2e6;
+}
+
+h2{
+    font-size:30px;
+    margin:0 10px;
+    
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+}
+
+#resultado{
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+}
